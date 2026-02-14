@@ -1,105 +1,137 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>For Mansha Kapoor ❤️</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      overflow: hidden;
-    }
-    .card {
-      background: rgba(255,255,255,0.95);
-      padding: 40px;
-      border-radius: 25px;
-      text-align: center;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.2);
-      max-width: 400px;
-      position: relative;
-      animation: fadeIn 1.5s ease;
-    }
-    h1 {
-      font-family: 'Great Vibes', cursive;
-      font-size: 2.8rem;
-      color: #e91e63;
-      margin-bottom: 15px;
-    }
-    p {
-      font-size: 1rem;
-      margin-bottom: 25px;
-      color: #444;
-    }
-    button {
-      padding: 12px 25px;
-      border: none;
-      border-radius: 30px;
-      background: #e91e63;
-      color: white;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: 0.3s ease;
-    }
-    button:hover {
-      background: #c2185b;
-      transform: scale(1.05);
-    }
-    .hidden-message {
-      margin-top: 20px;
-      font-size: 1.1rem;
-      color: #d81b60;
-      display: none;
-      animation: fadeIn 1s ease;
-    }
-    .heart {
-      position: absolute;
-      color: #ff4d6d;
-      font-size: 20px;
-      animation: float 6s linear infinite;
-    }
-    @keyframes float {
-      0% { transform: translateY(100vh) scale(1); opacity: 1; }
-      100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Mansha Kapoor ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+  text-align:center;
+}
+
+.card{
+  background:white;
+  padding:35px;
+  border-radius:25px;
+  box-shadow:0 20px 50px rgba(0,0,0,0.2);
+  max-width:420px;
+  position:relative;
+}
+
+h1{
+  font-family:'Great Vibes',cursive;
+  font-size:2.5rem;
+  color:#e91e63;
+  margin-bottom:10px;
+}
+
+p{ margin-bottom:15px; }
+
+button{
+  padding:10px 20px;
+  border:none;
+  border-radius:25px;
+  background:#e91e63;
+  color:white;
+  font-size:1rem;
+  cursor:pointer;
+  margin:8px;
+  transition:0.3s;
+}
+
+button:hover{ transform:scale(1.1); }
+
+#noBtn{
+  position:absolute;
+}
+
+.hidden{ display:none; margin-top:15px; }
+
+.heart{
+  position:absolute;
+  color:#ff4d6d;
+  animation:float 6s linear infinite;
+}
+
+@keyframes float{
+  0%{ transform:translateY(100vh); opacity:1; }
+  100%{ transform:translateY(-10vh); opacity:0; }
+}
+</style>
 </head>
+
 <body>
-  <div class="card">
-    <h1>Happy Valentine’s Day, Mansha 💖</h1>
-    <p>There’s something I wanted to tell you…</p>
-    <button onclick="revealMessage()">Click Me</button>
-    <div class="hidden-message" id="message">
-      Mansha, you are the most beautiful blessing Krishna placed in my life. 🌸<br><br>Like a rose offered at Jagannath’s feet, my heart quietly rests with you.<br><br>With you, every ordinary day feels like a festival in Vrindavan.
-    </div>
-  </div>  <script>
-    function revealMessage() {
-      document.getElementById('message').style.display = 'block';
-    }
 
-    function createHearts() {
-      const heart = document.createElement('div');
-      heart.classList.add('heart');
-      heart.innerHTML = '❤';
-      heart.style.left = Math.random() * 100 + 'vw';
-      heart.style.fontSize = Math.random() * 20 + 15 + 'px';
-      heart.style.animationDuration = Math.random() * 3 + 3 + 's';
-      document.body.appendChild(heart);
+<audio autoplay loop>
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_8b0c3e8a5f.mp3?filename=indian-flute-110624.mp3" type="audio/mpeg">
+</audio>
 
-      setTimeout(() => {
-        heart.remove();
-      }, 6000);
-    }
+<div class="card">
+  <h1>Happy Valentine’s Day, Mansha 💖</h1>
 
-    setInterval(createHearts, 500);
-  </script></body>
+  <p>
+    I’m sorry 🥺🌸🍫 for not messaging sometimes…  
+    but I never forgot you.  
+    And I will never ever forget you.
+  </p>
+
+  <p>
+    You are my favourite person.  
+    You are my Soni Votti 💕
+  </p>
+
+  <p class="hidden" id="secretLine">
+    (Only we know what happened that evening under that quiet sky… 🌙✨)
+  </p>
+
+  <h3>Will you be mine? 💘</h3>
+
+  <button onclick="sayYes()">Yes 💖</button>
+  <button id="noBtn" onmouseover="moveNo()">No 🙈</button>
+
+  <p class="hidden" id="finalMessage">
+    You chose YES 😭💞  
+    That means the universe approves us.  
+    From today… officially mine. 💍✨  
+  </p>
+</div>
+
+<script>
+function moveNo(){
+  const btn=document.getElementById("noBtn");
+  const x=Math.random()*300-150;
+  const y=Math.random()*300-150;
+  btn.style.transform=`translate(${x}px,${y}px)`;
+}
+
+function sayYes(){
+  document.getElementById("finalMessage").style.display="block";
+  document.getElementById("secretLine").style.display="block";
+}
+
+function createHearts(){
+  const heart=document.createElement("div");
+  heart.classList.add("heart");
+  heart.innerHTML="❤";
+  heart.style.left=Math.random()*100+"vw";
+  heart.style.fontSize=Math.random()*20+15+"px";
+  document.body.appendChild(heart);
+  setTimeout(()=>{heart.remove();},6000);
+}
+setInterval(createHearts,500);
+</script>
+
+</body>
 </html>
